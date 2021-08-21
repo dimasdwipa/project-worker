@@ -4,7 +4,7 @@
 <!-- Mirrored from preview.colorlib.com/theme/rezume/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Aug 2021 11:34:57 GMT -->
 
 <head>
-    <title>Rezume Free Template by Colorlib</title>
+    <title>My Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet"
@@ -25,8 +25,7 @@
                     <li class="nav-item"><a class="nav-link" href="#section-portfolio">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
                     <li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section-contact">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>                    
                 </ul>
             </div>
         </div>
@@ -127,7 +126,7 @@
                         <h2>About <strong>Me</strong></h2>
                     </div>                    
                     <p class="lead">{{$item->title}}</p>    
-                    <p class="mb-5  ">NOTHING LAST FOREVER WE CAN CHANGE THE FUTURE - Alucard</p>
+                    <p class="mb-5  ">{{$item->description}}</p>
                     @endforeach                        
                     @endif                                        
                     <p>
@@ -201,21 +200,17 @@
                         <li>
                             <span class="text-uppercase">Email</span>
                             <a href="https://preview.colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__"
-                                data-cfemail="bdced4c9d8fddad0dcd4d193ded2d0">[email&#160;protected]</a>
+                                data-cfemail="bdced4c9d8fddad0dcd4d193ded2d0">dimasdwiparaga07@gmail.com</a>
                         </li>
                         <li>
                             <span class="text-uppercase">Phone</span>
-                            +30 976 1382 9921
-                        </li>
-                        <li>
-                            <span class="text-uppercase">Fax</span>
-                            +30 976 1382 9922
-                        </li>
+                            +62 89690731803
+                        </li>                        
                         <li>
                             <span class="text-uppercase">Address</span>
-                            San Francisco, CA <br>
-                            4th Floor8 Lower <br>
-                            San Francisco street, M1 50F
+                            Indonesia <br>
+                            Kalimantan Timur, Balikpapan <br>
+                            Jln letjen suprapto Rt 14 No 49
                         </li>
                     </ul>
                 </div>
@@ -240,11 +235,9 @@
             <div class="row mb-5">
                 <div class="col-md-12 text-center">
                     <p>
-                        <a href="#" class="social-item"><span class="icon-facebook2"></span></a>
-                        <a href="#" class="social-item"><span class="icon-twitter"></span></a>
-                        <a href="#" class="social-item"><span class="icon-instagram2"></span></a>
-                        <a href="#" class="social-item"><span class="icon-linkedin2"></span></a>
-                        <a href="#" class="social-item"><span class="icon-vimeo"></span></a>
+                        <a href="https://www.facebook.com/dimas.raga.71/" class="social-item"><span class="icon-facebook2"></span></a>                        
+                        <a href="https://www.instagram.com/dimas.raga_/" class="social-item"><span class="icon-instagram2"></span></a>
+                        <a href="#" class="social-item"><span class="icon-linkedin2"></span></a>                        
                     </p>
                 </div>
             </div>
