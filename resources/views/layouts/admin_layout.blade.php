@@ -134,11 +134,7 @@
                                     <a class="nav-link" href="{{route('admin.me.create')}}">Create</a>
                                     <a class="nav-link" href="{{route('admin.me.list')}}">List</a>
                                 </nav>
-                            </div>
-                        <a class="nav-link" href="charts.html">
-                            <div class="sb-nav-link-icon"><i class="fas fa-envelope"></i></div>
-                            Contact
-                        </a>
+                            </div>                        
                     </div>
                 </div>
                 <div class="sb-sidenav-footer">
